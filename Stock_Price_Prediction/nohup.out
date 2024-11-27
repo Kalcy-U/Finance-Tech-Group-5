@@ -1,0 +1,98 @@
+/home/fdse/Labs_tyn/MASTER/base_model.py:22: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+/home/fdse/Labs_tyn/MASTER/base_model.py:22: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+Data Loaded.
+Epoch 0, train_loss 1.044333, valid_loss 0.992307 
+Epoch 1, train_loss 1.000023, valid_loss 0.987604 
+Epoch 2, train_loss 0.991231, valid_loss 0.984034 
+Epoch 3, train_loss 0.987677, valid_loss 0.987508 
+Epoch 4, train_loss 0.985705, valid_loss 0.985491 
+Epoch 5, train_loss 0.983909, valid_loss 0.984883 
+Epoch 6, train_loss 0.982651, valid_loss 0.986216 
+Epoch 7, train_loss 0.981242, valid_loss 0.989737 
+Epoch 8, train_loss 0.979796, valid_loss 0.986848 
+Epoch 9, train_loss 0.978841, valid_loss 0.988287 
+Epoch 10, train_loss 0.977579, valid_loss 0.986723 
+Epoch 11, train_loss 0.976393, valid_loss 0.987886 
+Epoch 12, train_loss 0.975328, valid_loss 0.989500 
+Epoch 13, train_loss 0.974058, valid_loss 0.988424 
+Epoch 14, train_loss 0.972728, valid_loss 0.989812 
+Epoch 15, train_loss 0.971747, valid_loss 0.997791 
+Epoch 16, train_loss 0.970752, valid_loss 0.992409 
+Epoch 17, train_loss 0.969667, valid_loss 0.994492 
+Epoch 18, train_loss 0.968471, valid_loss 0.995631 
+Epoch 19, train_loss 0.967217, valid_loss 0.992548 
+Epoch 20, train_loss 0.965891, valid_loss 0.998644 
+Epoch 21, train_loss 0.964780, valid_loss 0.996636 
+Epoch 22, train_loss 0.963334, valid_loss 1.002961 
+Epoch 23, train_loss 0.962510, valid_loss 0.996591 
+Epoch 24, train_loss 0.961097, valid_loss 1.007032 
+Epoch 25, train_loss 0.960429, valid_loss 0.996505 
+Epoch 26, train_loss 0.959499, valid_loss 1.001144 
+Epoch 27, train_loss 0.958301, valid_loss 1.003491 
+Epoch 28, train_loss 0.956491, valid_loss 1.001426 
+Epoch 29, train_loss 0.955561, valid_loss 0.999528 
+Epoch 30, train_loss 0.954707, valid_loss 1.007421 
+Epoch 31, train_loss 0.953285, valid_loss 0.997346 
+Epoch 32, train_loss 0.952383, valid_loss 1.002733 
+Epoch 33, train_loss 0.951010, valid_loss 1.009793 
+Epoch 34, train_loss 0.949799, valid_loss 1.008278 
+Model Trained.
+{'IC': 0.06096121067660614, 'ICIR': 0.39425442037618913, 'RIC': 0.06366732563008966, 'RICIR': 0.4103835008055658}
+/home/fdse/Labs_tyn/MASTER/base_model.py:23: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+/home/fdse/Labs_tyn/MASTER/base_model.py:23: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+/home/fdse/Labs_tyn/MASTER/base_model.py:23: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+/home/fdse/Labs_tyn/MASTER/base_model.py:23: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+/home/fdse/Labs_tyn/MASTER/base_model.py:23: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.daily_count = pd.Series(index=self.data_source.get_index()).groupby("datetime").size().values
+Data Loaded.
+Epoch 0, train_loss 1.044333, valid_loss 0.992307 
+Epoch 1, train_loss 1.000023, valid_loss 0.987604 
+Epoch 2, train_loss 0.991231, valid_loss 0.984034 
+Epoch 3, train_loss 0.987677, valid_loss 0.987508 
+Epoch 4, train_loss 0.985705, valid_loss 0.985491 
+Epoch 5, train_loss 0.983909, valid_loss 0.984883 
+Epoch 6, train_loss 0.982651, valid_loss 0.986216 
+Epoch 7, train_loss 0.981242, valid_loss 0.989737 
+Epoch 8, train_loss 0.979796, valid_loss 0.986848 
+Epoch 9, train_loss 0.978841, valid_loss 0.988287 
+Epoch 10, train_loss 0.977579, valid_loss 0.986723 
+Epoch 11, train_loss 0.976393, valid_loss 0.987886 
+Epoch 12, train_loss 0.975328, valid_loss 0.989500 
+Epoch 13, train_loss 0.974058, valid_loss 0.988424 
+Epoch 14, train_loss 0.972728, valid_loss 0.989812 
+Epoch 15, train_loss 0.971747, valid_loss 0.997791 
+Epoch 16, train_loss 0.970752, valid_loss 0.992409 
+Epoch 17, train_loss 0.969667, valid_loss 0.994492 
+Epoch 18, train_loss 0.968471, valid_loss 0.995631 
+Epoch 19, train_loss 0.967217, valid_loss 0.992548 
+Epoch 20, train_loss 0.965891, valid_loss 0.998644 
+Epoch 21, train_loss 0.964780, valid_loss 0.996636 
+Epoch 22, train_loss 0.963334, valid_loss 1.002961 
+Epoch 23, train_loss 0.962510, valid_loss 0.996591 
+Epoch 24, train_loss 0.961097, valid_loss 1.007032 
+Epoch 25, train_loss 0.960429, valid_loss 0.996505 
+Epoch 26, train_loss 0.959499, valid_loss 1.001144 
+Epoch 27, train_loss 0.958301, valid_loss 1.003491 
+Epoch 28, train_loss 0.956491, valid_loss 1.001426 
+Epoch 29, train_loss 0.955561, valid_loss 0.999528 
+Epoch 30, train_loss 0.954707, valid_loss 1.007421 
+Epoch 31, train_loss 0.953285, valid_loss 0.997346 
+Epoch 32, train_loss 0.952383, valid_loss 1.002733 
+Epoch 33, train_loss 0.951010, valid_loss 1.009793 
+Epoch 34, train_loss 0.949799, valid_loss 1.008278 
+Epoch 35, train_loss 0.948777, valid_loss 1.010445 
+Epoch 36, train_loss 0.947397, valid_loss 1.007089 
+Epoch 37, train_loss 0.946583, valid_loss 1.001133 
+Epoch 38, train_loss 0.945211, valid_loss 1.010363 
+Epoch 39, train_loss 0.943970, valid_loss 1.001957 
+{'IC': 0.06451133170563868, 'ICIR': 0.44030069960158197, 'RIC': 0.06483971172724864, 'RICIR': 0.43984139823140095}
+{'AR': 24.360958725214005, 'IR': 4.8762710435189005}
+Data Loaded.
+{'IC': 0.07085817812825475, 'ICIR': 0.4705291660108001, 'RIC': 0.06842073672762834, 'RICIR': 0.44996182048542777}
+{'AR': 28.150357872247696, 'IR': 5.384245443467185}
